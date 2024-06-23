@@ -6,9 +6,25 @@
   <component name="ChangeListManager">
     <list default="true" id="5ee5b1f8-2a03-4b1a-b5b8-12801c7d07f7" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../.vs/py-g34malik/v17/.suo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture4/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture5/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture5/02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture5/03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture5/04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture6/super_calc/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture6/super_calc/menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture6/super_calc/operations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture6/super_calc/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture3/06.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture3/06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture7/fims/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture7/fims/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture7/fims/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture7/fims/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture7/fims/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture7/fims/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture7/fims/monit.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture7/fims/monit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture7/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture7/init.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture7/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture7/monit.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,42 +64,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07.executor&quot;: &quot;Run&quot;,
-    &quot;Python.08.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09.executor&quot;: &quot;Run&quot;,
-    &quot;Python.10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.12.executor&quot;: &quot;Run&quot;,
-    &quot;Python.13.executor&quot;: &quot;Run&quot;,
-    &quot;Python.14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.16.executor&quot;: &quot;Run&quot;,
-    &quot;Python.17.executor&quot;: &quot;Run&quot;,
-    &quot;Python.18.executor&quot;: &quot;Run&quot;,
-    &quot;Python.19.executor&quot;: &quot;Run&quot;,
-    &quot;Python.20.executor&quot;: &quot;Run&quot;,
-    &quot;Python.21.executor&quot;: &quot;Run&quot;,
-    &quot;Python.23.executor&quot;: &quot;Run&quot;,
-    &quot;Python.24.executor&quot;: &quot;Run&quot;,
-    &quot;Python.o1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.01.executor": "Run",
+    "Python.02.executor": "Run",
+    "Python.03.executor": "Run",
+    "Python.04.executor": "Run",
+    "Python.05.executor": "Run",
+    "Python.06.executor": "Run",
+    "Python.07.executor": "Run",
+    "Python.08.executor": "Run",
+    "Python.09.executor": "Run",
+    "Python.10.executor": "Run",
+    "Python.11.executor": "Run",
+    "Python.12.executor": "Run",
+    "Python.13.executor": "Run",
+    "Python.14.executor": "Run",
+    "Python.15.executor": "Run",
+    "Python.16.executor": "Run",
+    "Python.17.executor": "Run",
+    "Python.18.executor": "Run",
+    "Python.19.executor": "Run",
+    "Python.20.executor": "Run",
+    "Python.21.executor": "Run",
+    "Python.23.executor": "Run",
+    "Python.24.executor": "Run",
+    "Python.__main__.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.menu.executor": "Run",
+    "Python.o1.executor": "Run",
+    "Python.operations.executor": "Run",
+    "Python.setup.executor": "Run",
+    "Python.utils.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -106,33 +130,46 @@
       <workItem from="1717259624878" duration="358000" />
       <workItem from="1717440454286" duration="2157000" />
       <workItem from="1718049156068" duration="2936000" />
+      <workItem from="1718387462303" duration="2148000" />
+      <workItem from="1718390214811" duration="857000" />
+      <workItem from="1719169710837" duration="4366000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/main_py$utils.coverage" NAME="utils Coverage Results" MODIFIED="1719170256646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture6/super_calc" />
     <SUITE FILE_PATH="coverage/homework1_py$03.coverage" NAME="03 Coverage Results" MODIFIED="1716822288287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$23.coverage" NAME="23 Coverage Results" MODIFIED="1716824822239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/o1_py$03.coverage" NAME="03 Coverage Results" MODIFIED="1717442194852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture2" />
+    <SUITE FILE_PATH="coverage/main_py$main.coverage" NAME="main Coverage Results" MODIFIED="1719172521780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture7/fims" />
+    <SUITE FILE_PATH="coverage/o1_py$03.coverage" NAME="03 Coverage Results" MODIFIED="1718387906902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture5" />
     <SUITE FILE_PATH="coverage/o1_py$06.coverage" NAME="06 Coverage Results" MODIFIED="1717442349386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture3" />
+    <SUITE FILE_PATH="coverage/o1_py$operations.coverage" NAME="operations Coverage Results" MODIFIED="1718388810169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture6" />
     <SUITE FILE_PATH="coverage/homework1_py$06.coverage" NAME="06 Coverage Results" MODIFIED="1716823095381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/o1_py$menu.coverage" NAME="menu Coverage Results" MODIFIED="1718388465659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture6" />
     <SUITE FILE_PATH="coverage/homework1_py$20.coverage" NAME="20 Coverage Results" MODIFIED="1716824589113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$09.coverage" NAME="09 Coverage Results" MODIFIED="1716823609778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$15.coverage" NAME="15 Coverage Results" MODIFIED="1716824088118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$11.coverage" NAME="11 Coverage Results" MODIFIED="1716823786229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$02.coverage" NAME="02 Coverage Results" MODIFIED="1716822020306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$18.coverage" NAME="18 Coverage Results" MODIFIED="1716824423428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/o1_py$02.coverage" NAME="02 Coverage Results" MODIFIED="1717440989595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture3" />
+    <SUITE FILE_PATH="coverage/o1_py$02.coverage" NAME="02 Coverage Results" MODIFIED="1718387669308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture5" />
+    <SUITE FILE_PATH="coverage/o1_py$utils.coverage" NAME="utils Coverage Results" MODIFIED="1718388473035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture6" />
     <SUITE FILE_PATH="coverage/homework1_py$04.coverage" NAME="04 Coverage Results" MODIFIED="1716822663180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$07.coverage" NAME="07 Coverage Results" MODIFIED="1716823174215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/o1_py$05.coverage" NAME="05 Coverage Results" MODIFIED="1717442064916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture3" />
+    <SUITE FILE_PATH="coverage/main_py$setup.coverage" NAME="setup Coverage Results" MODIFIED="1719171185217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture7/fims" />
     <SUITE FILE_PATH="coverage/homework1_py$10.coverage" NAME="10 Coverage Results" MODIFIED="1716823719400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$13.coverage" NAME="13 Coverage Results" MODIFIED="1716823920218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$16.coverage" NAME="16 Coverage Results" MODIFIED="1716824127406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$19.coverage" NAME="19 Coverage Results" MODIFIED="1716824502736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/o1_py$04.coverage" NAME="04 Coverage Results" MODIFIED="1717442232354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture2" />
+    <SUITE FILE_PATH="coverage/o1_py$04.coverage" NAME="04 Coverage Results" MODIFIED="1718388933207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture5" />
+    <SUITE FILE_PATH="coverage/o1_py$main.coverage" NAME="main Coverage Results" MODIFIED="1718388953187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture6/super_calc" />
     <SUITE FILE_PATH="coverage/homework1_py$24.coverage" NAME="24 Coverage Results" MODIFIED="1716824954360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$08.coverage" NAME="08 Coverage Results" MODIFIED="1716823430937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$o1.coverage" NAME="o1 Coverage Results" MODIFIED="1716821390914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -141,6 +178,7 @@
     <SUITE FILE_PATH="coverage/homework1_py$14.coverage" NAME="14 Coverage Results" MODIFIED="1716823973101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$12.coverage" NAME="12 Coverage Results" MODIFIED="1716823842272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/homework1_py$17.coverage" NAME="17 Coverage Results" MODIFIED="1716824261179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/o1_py$01.coverage" NAME="01 Coverage Results" MODIFIED="1718051931153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture4" />
+    <SUITE FILE_PATH="coverage/main_py$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1719173748470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture7/fims" />
+    <SUITE FILE_PATH="coverage/o1_py$01.coverage" NAME="01 Coverage Results" MODIFIED="1718387510181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lecture5" />
   </component>
 </project>
