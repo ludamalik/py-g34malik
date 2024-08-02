@@ -1,0 +1,12 @@
+﻿{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Todo App!</h1>
+    <p class="lead">This is a simple Todo application to manage your tasks efficiently.</p>
+    <hr class="my-4">
+    <p>Sign up or log in to start managing your tasks.</p>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('auth.signup') }}" role="button">Sign Up</a>
+    <a class="btn btn-secondary btn-lg" href="{{ url_for('auth.login') }}" role="button">Login</a>
+</div>
+{% endblock %}
